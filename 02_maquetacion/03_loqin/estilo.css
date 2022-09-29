@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+header{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-family: 25px;
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+section{
+    width: 400px;
+    height: 550px;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    top: -60px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(236, 117, 226);
+}
+input{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 2px solid lavenderblush;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 20px rgb(255, 108, 206);
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+button{
+    width: 100px;
+    height: 45px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow:  5px 5px 5px gray;
+}
+.claro{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.mover{
+    margin-top: 30px;
+}
+.btn-login{
+    background: rgb(2, 255, 242);
+}
+.btn-face{
+    background: rgb(57, 57, 245);
+}
+.btn-git{
+    background: rgb(0, 0, 0);
+}
