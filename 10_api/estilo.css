@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:green ;
+background: radial-gradient(circle, rgba(15,255,252,1) 0%, rgba(238,116,197,1) 100%, rgba(255,255,255,1) 100%);
+font-size: 25px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+text-align: center;
+
+
+}
+.cajita{
+    width: 400px;
+    height: auto;
+    margin: auto;
+background-color: blueviolet;
+box-shadow: 0 0 50px rgb(226, 16, 16);
+border-radius: 20%;
+padding: 20px;
+text-align: justify;
+
+}
+.cajita:hover{
+transform: scale(1.05);
+border: 2px solid white;
+
+}
+span{
+color: aqua;
+text-shadow: 0 0 5px rebeccapurple;
+
+}
