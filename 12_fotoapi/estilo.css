@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 100px;
+}
+body{
+    color: #fdfdfd;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(45, 161, 182) 0%, rgb(15, 255, 255) 100%);
+text-align: center;
+
+}
+#Resultado{
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(200px, auto) ;
+    gap: 20px;
+    }
+    .photos{
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.button1 {
+    float: center;
+    border: 1px solid green
+}
