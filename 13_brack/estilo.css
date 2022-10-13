@@ -25,35 +25,35 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 
 @keyframes ween{
     0%{
-       background:url( https://sm.ign.com/ign_latam/screenshot/default/walter_26qc.jpg);
+       background:url( https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalspy.com%2Ftv%2Fustv%2Fa35980744%2Fbreaking-bad-cast-bryan-cranston-aaron-paul-now%2F&psig=AOvVaw1WmPlC2hju4_EwZrEywr1v&ust=1665750468862000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCMCPjKGa3foCFQAAAAAdAAAAABAJ);
        background-size: cover;
        background-repeat: no-repeat;
        margin: 0;
        height: 100vh;
     }
     20%{
-        background:url( https://i.blogs.es/16e585/breaking-bad/1366_2000.jpg);
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzjrMqmYXhy5IbYJhO-9Ydw-sl_KBHqhprHA&usqp=CAU);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
         height: 100vh;
      }
      40%{
-        background:url( https://vader.news/__export/1591069210952/sites/gadgets/img/2020/06/02/breaking_bad_prtada.png_1121438045.png);
+        background:url( https://s.yimg.com/uu/api/res/1.2/pLlB4PtsVep1R.OyFE_eJQ--~B/aD0zMDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/es/levelup_525/3df709181872c53460353fae18937633);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
         height: 100vh;
      }
      60%{
-         background:url( https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/KJ2SCCNWNZBWVECVA6UCEOOY3A.jpg);
+         background:url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTar8FKHpwMvcI3NbjHampvE6sLXlGxtAXXhA&usqp=CAU);
          background-size: cover;
          background-repeat: no-repeat;
          margin: 0;
          height: 100vh;
       }
       80%{
-        background:url( https://hips.hearstapps.com/hmg-prod/images/es-010818-breaking-bad-lede-1515790396.jpg);
+        background:url( https://lightbox-prod.imgix.net/images/uploads/1523927339384-breakingbad.jpg?auto=format&fit=crop&crop=faces%2Cright&ar=16%3A8&ixlib=react-9.0.1);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
