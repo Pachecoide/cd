@@ -19,11 +19,11 @@ const verClima= async()=>{
             <img src="${urlIcon}">
             <p>Temperatura:${data.main.temp}°C</p>
             <h2>${data.weather[0].description.toUpperCase()}</h2>
-            <p>MAX:${data.main.temp_max}</p>
-            <p>MIN:${data.main.temp_min}</p>
-            <p>PRESION:${data.main.pressure}</p>
+            <p>MAX:${data.main.temp_max}°C</p>
+            <p>MIN:${data.main.temp_min}°C</p>
+            <p>PRESION:${data.main.pressure}pda</p>
             <p>HUMEDAD:${data.main.humidity}</p>
-            <p>VELOCIDAD DEL VIENTO:${data.wind.speed}</p>
+            <p>VELOCIDAD DEL VIENTO:${data.wind.speed}k/s</p>
             `;
         }
         navigator.geolocation.getCurrentPosition(success, function(msg){
